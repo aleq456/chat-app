@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  posthres:
+    image: postgres:18
+    ports:
+      - "5432:5432"
+    enviroment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
